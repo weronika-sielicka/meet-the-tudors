@@ -1,0 +1,33 @@
+@import "queries";
+
+
+#treeMobileSection {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  @include medium {
+    display: none;
+  }
+  @include large {
+    display: none;
+  }
+  @include extra-large {
+    display: none;
+  }
+}
+
+.childrenPortraitsMobile {
+  margin-top: 170px;
+}
+
+.parentsMobile{
+  display: flex;
+  direction: column;
+  justify-content: center;
+}
+
+.childrenMobile{
+  display: flex;
+  direction: column;
+  justify-content: center;
+}
