@@ -8480,48 +8480,48 @@ var TreeMobile = __webpack_require__(248);
 
 //Roboczo
 var henryText = "Henry VIII is one of the most famous kings in English history. He was the second Tudor monarch and was well-known for having six wives. His break with the papacy in Rome established the Church of England and began the Reformation.";
-var aragonText = 'Catherine was born near Madrid in December 1485. She was the daughter of King Ferdinand and Queen Isabella, whose marriage had united Spain. At three years of age Catherine was betrothed to King Henry VIIs oldest son Arthur, only a year younger than her. Catherine was tutored in religion and classics by Alessandro Geraldini, a clerk in Holy Orders, and remained a devout Catholic throughout her life.';
-var boleynText = 'Anne Boleyn was the second wife of Henry VIII and the mother of Elizabeth I. Henrys desire to divorce his first wife and marry Anne helped bring about the English Reformation. She was the first English queen to be publicly executed.';
-var seymourText = 'was Queen of England from 1536 to 1537 as the third wife of King Henry VIII. She succeeded Anne Boleyn as queen consort following the latters execution in May 1536. She died of postnatal complications less than two weeks after the birth of her only child, a son who became King Edward VI. She was the only one of Henrys wives to receive a queens funeral, and his only consort to be buried beside him in St Georges Chapel at Windsor Castle.';
-var clevesText = 'was Queen of England from 6 January to 9 July 1540 as the fourth wife of King Henry VIII.[1] The marriage was declared never consummated and, as a result, she was not crowned queen consort. Following the annulment, she was given a generous settlement by the King, and thereafter referred to as the Kings Beloved Sister. She lived to see the coronation of Queen Mary I, outliving the rest of Henrys wives.';
-var howardText = 'was Queen of England from 1540 until 1541, as the fifth wife of Henry VIII.[a] She (then 16 or 17) married him (then 49) on 28 July 1540, at Oatlands Palace, in Surrey, almost immediately after the annulment of his marriage to Anne of Cleves was arranged. Catherine was stripped of her title as queen within 16 months, in November 1541. She was beheaded three months later, on the grounds of treason for committing adultery while married to Henry.';
-var parrText = 'was Queen of England and of Ireland (1543–47) as the last of the six wives of King Henry VIII, and the final queen consort of the House of Tudor. She married him on 12 July 1543, and outlived him by one year. She was also the most-married English queen, with four husbands.';
-var maryText = 'was the Queen of England and Ireland from July 1553 until her death. Mary is best known for her aggressive and bloody pursuit of the restoration of Roman Catholicism in England and Ireland in an attempt to reverse the English Reformation of her father, Henry VIII.';
-var elizabethText = 'was Queen of England and Ireland from 17 November 1558 until her death. Sometimes called The Virgin Queen, Gloriana or Good Queen Bess, the childless Elizabeth was the last monarch of the House of Tudor.';
-var edwardText = 'was King of England and Ireland from 28 January 1547 until his death. He was crowned on 20 February at the age of nine. The son of Henry VIII and Jane Seymour, Edward was Englands first monarch to be raised as a Protestant. During his reign, the realm was governed by a Regency Council because he never reached his majority. The Council was first led by his uncle Edward Seymour, 1st Duke of Somerset (1547–1549), and then by John Dudley, 1st Earl of Warwick, from 1551 Duke of Northumberland.';
+var aragonText = 'Married to Henry VIII from 1509 to 1533, mother to Mary I. Catherine was born near Madrid in December 1485. She was the daughter of King Ferdinand and Queen Isabella, whose marriage had united Spain. At three years of age Catherine was betrothed to King Henry VIIs oldest son Arthur, only a year younger than her. Catherine was tutored in religion and classics by Alessandro Geraldini, a clerk in Holy Orders, and remained a devout Catholic throughout her life.';
+var boleynText = 'Married do Henry VIII from 1533 to 1536, mother to Elizabeth I. Henrys desire to divorce his first wife and marry Anne helped bring about the English Reformation. She was the first English queen to be publicly executed.';
+var seymourText = 'Married do Henry VIII in 1536, mother to Edward VI. Was Queen of England from 1536 to 1537 as the third wife of King Henry VIII. She succeeded Anne Boleyn as queen consort following the latters execution in May 1536. She died of postnatal complications less than two weeks after the birth of her only child, a son who became King Edward VI. She was the only one of Henrys wives to receive a queens funeral, and his only consort to be buried beside him in St Georges Chapel at Windsor Castle.';
+var clevesText = 'Married to Henry VIII in 1540- the marriage was anulled that same year. Was Queen of England from 6 January to 9 July 1540 as the fourth wife of King Henry VIII. The marriage was declared never consummated and, as a result, she was not crowned queen consort. Following the annulment, she was given a generous settlement by the King, and thereafter referred to as the Kings Beloved Sister. She lived to see the coronation of Queen Mary I, outliving the rest of Henrys wives.';
+var howardText = 'Married to Henry VIII from 1540 to 1542. Was Queen of England from 1540 until 1541, as the fifth wife of Henry VIII.[a] She (then 16 or 17) married him (then 49) on 28 July 1540, at Oatlands Palace, in Surrey, almost immediately after the annulment of his marriage to Anne of Cleves was arranged. Catherine was stripped of her title as queen within 16 months, in November 1541. She was beheaded three months later, on the grounds of treason for committing adultery while married to Henry.';
+var parrText = 'Married to Henry VII form 1543 to his death in 1547. Was Queen of England and of Ireland (1543–47) as the last of the six wives of King Henry VIII, and the final queen consort of the House of Tudor. She married him on 12 July 1543, and outlived him by one year. She was also the most-married English queen, with four husbands.';
+var maryText = 'Daughter of Catherine of Aragon and Henry VIII. Was Queen of England and Ireland from July 1553 until her death. Mary is best known for her aggressive and bloody pursuit of the restoration of Roman Catholicism in England and Ireland in an attempt to reverse the English Reformation of her father, Henry VIII.';
+var elizabethText = 'Daughter of Anne Boleyn and Henry VIII. Was Queen of England and Ireland from 17 November 1558 until her death. Sometimes called The Virgin Queen, Gloriana or Good Queen Bess, the childless Elizabeth was the last monarch of the House of Tudor.';
+var edwardText = 'Son of Jane Seymour and Henry VIII- his only male descendant.Was King of England and Ireland from 28 January 1547 until his death. He was crowned on 20 February at the age of nine. The son of Henry VIII and Jane Seymour, Edward was Englands first monarch to be raised as a Protestant. During his reign, the realm was governed by a Regency Council because he never reached his majority. The Council was first led by his uncle Edward Seymour, 1st Duke of Somerset (1547–1549), and then by John Dudley, 1st Earl of Warwick, from 1551 Duke of Northumberland.';
 
 var infoTableParents = [{
   name: "henry",
-  bio: _react2.default.createElement(BioContent, { name: 'Henry VIII', dateBirth: '123', dateDeath: '123', text: henryText })
+  bio: _react2.default.createElement(BioContent, { name: 'Henry VIII', dateBirth: '28.06.1491', dateDeath: '28.01.1547', text: henryText })
 }, {
   name: "aragon",
-  bio: _react2.default.createElement(BioContent, { name: 'Catherine of Aragon', dateBirth: '123', dateDeath: '123', text: aragonText })
+  bio: _react2.default.createElement(BioContent, { name: 'Catherine of Aragon', dateBirth: '16.12.1485', dateDeath: '7.01.1536', text: aragonText })
 }, {
   name: "boleyn",
-  bio: _react2.default.createElement(BioContent, { name: 'Anne Boleyn', dateBirth: '123', dateDeath: '123', text: boleynText })
+  bio: _react2.default.createElement(BioContent, { name: 'Anne Boleyn', dateBirth: 'c. 07.1501', dateDeath: '19.05.1536', text: boleynText })
 }, {
   name: "seymour",
-  bio: _react2.default.createElement(BioContent, { name: 'Jane Seymour', dateBirth: '123', dateDeath: '123', text: seymourText })
+  bio: _react2.default.createElement(BioContent, { name: 'Jane Seymour', dateBirth: 'c. 1508', dateDeath: '24.10.1537', text: seymourText })
 }, {
   name: "cleves",
-  bio: _react2.default.createElement(BioContent, { name: 'Anne of Cleves', dateBirth: '123', dateDeath: '123', text: clevesText })
+  bio: _react2.default.createElement(BioContent, { name: 'Anne of Cleves', dateBirth: '22.09.1515', dateDeath: '16.07.1557', text: clevesText })
 }, {
   name: "howard",
-  bio: _react2.default.createElement(BioContent, { name: 'Catherine Howard', dateBirth: '123', dateDeath: '123', text: howardText })
+  bio: _react2.default.createElement(BioContent, { name: 'Catherine Howard', dateBirth: 'c. 1523', dateDeath: '13.02.1542', text: howardText })
 }, {
   name: "parr",
-  bio: _react2.default.createElement(BioContent, { name: 'Catherine Parr', dateBirth: '123', dateDeath: '123', text: parrText })
+  bio: _react2.default.createElement(BioContent, { name: 'Catherine Parr', dateBirth: '1512', dateDeath: '5.09.1548', text: parrText })
 }];
 
 var infoTableChildren = [{
   name: "mary",
-  bio: _react2.default.createElement(BioContent, { name: 'Mary I', dateBirth: '123', dateDeath: '123', text: maryText })
+  bio: _react2.default.createElement(BioContent, { name: 'Mary I', dateBirth: '18.02.1516', dateDeath: '17.11.1558', text: maryText })
 }, {
   name: "elizabeth",
-  bio: _react2.default.createElement(BioContent, { name: 'Elizabeth I', dateBirth: '123', dateDeath: '123', text: elizabethText })
+  bio: _react2.default.createElement(BioContent, { name: 'Elizabeth I', dateBirth: '7.09.1533', dateDeath: '24.03.1603', text: elizabethText })
 }, {
   name: "edward",
-  bio: _react2.default.createElement(BioContent, { name: 'Edward VI', dateBirth: '123', dateDeath: '123', text: edwardText })
+  bio: _react2.default.createElement(BioContent, { name: 'Edward VI', dateBirth: '12.10.1537', dateDeath: '6.07.1553', text: edwardText })
 }];
 
 var Main = function (_React$Component) {
@@ -14313,7 +14313,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Main = __webpack_require__(73);
 var NotFound = __webpack_require__(249);
 var About = __webpack_require__(250);
-var Films = __webpack_require__(266);
+var Films = __webpack_require__(251);
 
 document.addEventListener('DOMContentLoaded', function () {
   var Template = function (_React$Component) {
@@ -28578,30 +28578,10 @@ var About = function (_React$Component) {
           _react2.default.createElement(
             'p',
             { className: 'aboutP' },
-            'Who am I?'
-          ),
-          _react2.default.createElement(
-            'p',
-            { className: 'aboutP' },
-            'You\'ve probably noticed I like the color red and I\'m interested in the history of the Tudors.'
-          ),
-          _react2.default.createElement(
-            'p',
-            { className: 'aboutP' },
-            'It\'s only a tiny fraction of my interests.'
-          ),
-          _react2.default.createElement(
-            'p',
-            { className: 'aboutP' },
-            'A pretty large fraction of them is web development.'
-          ),
-          _react2.default.createElement(
-            'p',
-            { className: 'aboutP' },
             'You can view the sourcecode by clicking ',
             _react2.default.createElement(
               'a',
-              { href: '#', target: '_blank' },
+              { href: 'https://github.com/weronika-sielicka/meet-the-tudors', target: '_blank' },
               _react2.default.createElement(
                 'span',
                 null,
@@ -28613,12 +28593,12 @@ var About = function (_React$Component) {
           _react2.default.createElement(
             'p',
             { className: 'aboutP' },
-            'Oh, how rude of me- I forgot to introduce myself! That\'s what babbling on about code gets you!'
+            'You\'ve probably noticed I like the color red and I\'m interested in the history of the Tudors.'
           ),
           _react2.default.createElement(
             'p',
             { className: 'aboutP' },
-            'I\'m Weronika.'
+            'I\'m also passionate about web development and improving my skills.'
           ),
           _react2.default.createElement(
             'p',
@@ -28638,7 +28618,7 @@ var About = function (_React$Component) {
           _react2.default.createElement(
             'p',
             { className: 'aboutP' },
-            'As this is my first project in React JS, it might not be as super awesome as it could be. If you have any tips or suggestions, let me know at meet-the-tudors@gmail.com.'
+            'As this is my first project in React JS, it might not be as super awesome as it could be. If you have any tips or suggestions, let me know at meet.the.tudos.io@gmail.com.'
           )
         ),
         _react2.default.createElement(
@@ -28710,10 +28690,244 @@ var About = function (_React$Component) {
 module.exports = About;
 
 /***/ }),
-/* 251 */,
-/* 252 */,
-/* 253 */,
-/* 254 */,
+/* 251 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(6);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _film_list = __webpack_require__(252);
+
+var _film_list2 = _interopRequireDefault(_film_list);
+
+var _film_detail = __webpack_require__(254);
+
+var _film_detail2 = _interopRequireDefault(_film_detail);
+
+var _youtubeApiSearch = __webpack_require__(255);
+
+var _youtubeApiSearch2 = _interopRequireDefault(_youtubeApiSearch);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var YOUTUBE_YOUTUBE_API_KEY = 'AIzaSyA_TQp0e7PA7Oo0Cmu7SoWRXdUmO0Fc6Ls';
+
+var Films = function (_React$Component) {
+  _inherits(Films, _React$Component);
+
+  function Films(props) {
+    _classCallCheck(this, Films);
+
+    var _this = _possibleConstructorReturn(this, (Films.__proto__ || Object.getPrototypeOf(Films)).call(this, props));
+
+    _this.state = {
+      films: [],
+      selectedFilm: null
+    };
+
+    (0, _youtubeApiSearch2.default)({
+      key: YOUTUBE_YOUTUBE_API_KEY,
+      term: 'tudor documentary' }, function (films) {
+      _this.setState({ films: films, selectedFilm: films[0] });
+    });
+
+    return _this;
+  }
+
+  _createClass(Films, [{
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      return _react2.default.createElement(
+        'section',
+        { id: 'vidsSection' },
+        _react2.default.createElement(_film_detail2.default, { film: this.state.selectedFilm }),
+        _react2.default.createElement(_film_list2.default, { onSelect: function onSelect(selectedFilm) {
+            return _this2.setState({ selectedFilm: selectedFilm });
+          }, films: this.state.films })
+      );
+    }
+  }]);
+
+  return Films;
+}(_react2.default.Component);
+
+module.exports = Films;
+
+/***/ }),
+/* 252 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(6);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+var _film_list_item = __webpack_require__(253);
+
+var _film_list_item2 = _interopRequireDefault(_film_list_item);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var FilmList = function FilmList(props) {
+  var filmItems = props.films.map(function (film) {
+    return _react2.default.createElement(_film_list_item2.default, { onSelect: props.onSelect, key: film.etag, film: film });
+  });
+
+  return _react2.default.createElement(
+    'ul',
+    { className: 'col-md-4 list-group' },
+    filmItems
+  );
+};
+
+exports.default = FilmList;
+
+/***/ }),
+/* 253 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(6);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var FilmListItem = function FilmListItem(_ref) {
+  var film = _ref.film,
+      onSelect = _ref.onSelect;
+
+  var imageUrl = film.snippet.thumbnails.default.url;
+
+  return _react2.default.createElement(
+    'li',
+    { onClick: function onClick() {
+        return onSelect(film);
+      }, className: 'list-group-item' },
+    _react2.default.createElement(
+      'div',
+      { className: 'film-list media' },
+      _react2.default.createElement(
+        'div',
+        { className: 'media-left' },
+        _react2.default.createElement('img', { className: 'media-object', src: imageUrl })
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'media-body' },
+        _react2.default.createElement(
+          'div',
+          { className: 'media-heading title' },
+          film.snippet.title
+        )
+      )
+    )
+  );
+};
+
+exports.default = FilmListItem;
+
+/***/ }),
+/* 254 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(6);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var FilmDetail = function FilmDetail(_ref) {
+  var film = _ref.film;
+
+  if (film) {
+    var filmId = film.id.videoId;
+    var url = "https://www.youtube.com/embed/" + filmId;
+
+    return _react2.default.createElement(
+      "div",
+      { className: "film-detail col-md-8" },
+      _react2.default.createElement(
+        "div",
+        { className: "embed-responsive embed-responsive-16by9" },
+        _react2.default.createElement("iframe", { className: "embed-responsive-item", src: url })
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "details" },
+        _react2.default.createElement(
+          "div",
+          { className: "title" },
+          film.snippet.title
+        ),
+        _react2.default.createElement(
+          "div",
+          { className: "description" },
+          film.snippet.description
+        )
+      )
+    );
+  } else {
+    return _react2.default.createElement(
+      "div",
+      { id: "load" },
+      _react2.default.createElement("img", { src: "../images/loader.svg" })
+    );
+  }
+};
+
+exports.default = FilmDetail;
+
+/***/ }),
 /* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29218,244 +29432,6 @@ module.exports = function spread(callback) {
   };
 };
 
-
-/***/ }),
-/* 266 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(6);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = __webpack_require__(12);
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
-
-var _film_list = __webpack_require__(267);
-
-var _film_list2 = _interopRequireDefault(_film_list);
-
-var _film_detail = __webpack_require__(269);
-
-var _film_detail2 = _interopRequireDefault(_film_detail);
-
-var _youtubeApiSearch = __webpack_require__(255);
-
-var _youtubeApiSearch2 = _interopRequireDefault(_youtubeApiSearch);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var YOUTUBE_YOUTUBE_API_KEY = 'AIzaSyA_TQp0e7PA7Oo0Cmu7SoWRXdUmO0Fc6Ls';
-
-var Films = function (_React$Component) {
-  _inherits(Films, _React$Component);
-
-  function Films(props) {
-    _classCallCheck(this, Films);
-
-    var _this = _possibleConstructorReturn(this, (Films.__proto__ || Object.getPrototypeOf(Films)).call(this, props));
-
-    _this.state = {
-      films: [],
-      selectedFilm: null
-    };
-
-    (0, _youtubeApiSearch2.default)({
-      key: YOUTUBE_YOUTUBE_API_KEY,
-      term: 'tudor documentary' }, function (films) {
-      _this.setState({ films: films, selectedFilm: films[0] });
-    });
-
-    return _this;
-  }
-
-  _createClass(Films, [{
-    key: 'render',
-    value: function render() {
-      var _this2 = this;
-
-      return _react2.default.createElement(
-        'section',
-        { id: 'vidsSection' },
-        _react2.default.createElement(_film_detail2.default, { film: this.state.selectedFilm }),
-        _react2.default.createElement(_film_list2.default, { onSelect: function onSelect(selectedFilm) {
-            return _this2.setState({ selectedFilm: selectedFilm });
-          }, films: this.state.films })
-      );
-    }
-  }]);
-
-  return Films;
-}(_react2.default.Component);
-
-module.exports = Films;
-
-/***/ }),
-/* 267 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(6);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = __webpack_require__(12);
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
-
-var _film_list_item = __webpack_require__(268);
-
-var _film_list_item2 = _interopRequireDefault(_film_list_item);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var FilmList = function FilmList(props) {
-  var filmItems = props.films.map(function (film) {
-    return _react2.default.createElement(_film_list_item2.default, { onSelect: props.onSelect, key: film.etag, film: film });
-  });
-
-  return _react2.default.createElement(
-    'ul',
-    { className: 'col-md-4 list-group' },
-    filmItems
-  );
-};
-
-exports.default = FilmList;
-
-/***/ }),
-/* 268 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(6);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = __webpack_require__(12);
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var FilmListItem = function FilmListItem(_ref) {
-  var film = _ref.film,
-      onSelect = _ref.onSelect;
-
-  var imageUrl = film.snippet.thumbnails.default.url;
-
-  return _react2.default.createElement(
-    'li',
-    { onClick: function onClick() {
-        return onSelect(film);
-      }, className: 'list-group-item' },
-    _react2.default.createElement(
-      'div',
-      { className: 'film-list media' },
-      _react2.default.createElement(
-        'div',
-        { className: 'media-left' },
-        _react2.default.createElement('img', { className: 'media-object', src: imageUrl })
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'media-body' },
-        _react2.default.createElement(
-          'div',
-          { className: 'media-heading title' },
-          film.snippet.title
-        )
-      )
-    )
-  );
-};
-
-exports.default = FilmListItem;
-
-/***/ }),
-/* 269 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(6);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = __webpack_require__(12);
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var FilmDetail = function FilmDetail(_ref) {
-  var film = _ref.film;
-
-  if (film) {
-    var filmId = film.id.videoId;
-    var url = "https://www.youtube.com/embed/" + filmId;
-
-    return _react2.default.createElement(
-      "div",
-      { className: "film-detail col-md-8" },
-      _react2.default.createElement(
-        "div",
-        { className: "embed-responsive embed-responsive-16by9" },
-        _react2.default.createElement("iframe", { className: "embed-responsive-item", src: url })
-      ),
-      _react2.default.createElement(
-        "div",
-        { className: "details" },
-        _react2.default.createElement(
-          "div",
-          { className: "title" },
-          film.snippet.title
-        ),
-        _react2.default.createElement(
-          "div",
-          { className: "description" },
-          film.snippet.description
-        )
-      )
-    );
-  } else {
-    return _react2.default.createElement(
-      "div",
-      { id: "load" },
-      _react2.default.createElement("img", { src: "/home/weronika/Pulpit/tudorz/dist/images/loader.svg" })
-    );
-  }
-};
-
-exports.default = FilmDetail;
 
 /***/ })
 /******/ ]);
