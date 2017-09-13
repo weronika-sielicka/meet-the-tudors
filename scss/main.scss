@@ -107,8 +107,6 @@
   }
 }
 
-
-
     .henry {
       @include tree-portrait("../images/henry_VIII.jpg");
     }
@@ -117,7 +115,7 @@
       @include tree-portrait("../images/catherine_of_aragon.jpg");
     }
 
-    .boleyn { 
+    .boleyn {
       @include tree-portrait("../images/anne_boleyn.jpg");
     }
 

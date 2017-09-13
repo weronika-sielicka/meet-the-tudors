@@ -20,7 +20,7 @@ class TreeMobile extends React.Component {
   render() {
 
     return (
-      <section id="treeMobileSection">
+          <section id="treeMobileSection">
         <div id="parentsMobile">
           <div className="parentsPortraitsMobile">
 

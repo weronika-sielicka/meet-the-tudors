@@ -28,6 +28,7 @@ class Tree extends React.Component{
   render(){
     return (
       <section id="treeSection">
+        <p className="clickHeading">Click on a Tudor!</p>
       <div id="rowParents">
 
         <div id="parentsPortraits">

@@ -28150,6 +28150,11 @@ var Tree = function (_React$Component) {
         'section',
         { id: 'treeSection' },
         _react2.default.createElement(
+          'p',
+          { className: 'clickHeading' },
+          'Click on a Tudor!'
+        ),
+        _react2.default.createElement(
           'div',
           { id: 'rowParents' },
           _react2.default.createElement(
