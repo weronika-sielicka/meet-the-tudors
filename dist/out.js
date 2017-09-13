@@ -28620,7 +28620,7 @@ var About = function (_React$Component) {
             'If you like this page and want to get to know me a bit better, go ',
             _react2.default.createElement(
               'a',
-              { href: '#', target: '_blank' },
+              { href: 'www.linkedin.com/in/weronika-sielicka', target: '_blank' },
               _react2.default.createElement(
                 'span',
                 null,
