@@ -44,7 +44,7 @@ $secondary-color: rgb(255,255,255);
   }
 
   #rowChildren {
-    @include tree-display-row;
+    @include tree-display-column;
   }
 
   #childrenPortraits {
