@@ -1,51 +1,54 @@
 @import "queries";
+$primary-color: rgb(219,44,77);
+$secondary-color: rgb(255,255,255);
 
-#treeSection {
-  width: 100%;
+@mixin tree-display-row {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@mixin tree-display-column {
+  align-self: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#treeSection {
   background-color: #FDFDFD;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
   padding-bottom: 20vh;
   padding-top: 10vh;
-  display: none;
+  width: 100%;
   @include medium {
     display: flex;
   }
 
-
-  .clickHeading{
-    margin: 0 auto;
+  .clickHeading {
+    color: $primary-color;
     font-size: 3rem;
     font-weight: bold;
-    color: #db2c4d;
-  margin-bottom: 8vh; }
+    margin: 0 auto;
+  }
 
   #rowParents {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: center;
+    @include tree-display-column;
   }
 
   #parentsPortraits {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    justify-content: center;
-
-
+    @include tree-display-row;
   }
 
   #rowChildren {
-    display: flex;
-    flex-direction: column;
+    @include tree-display-row;
   }
 
   #childrenPortraits {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    @include tree-display-row;
     padding-right: 330px;
   }
 }

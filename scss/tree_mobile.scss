@@ -1,8 +1,8 @@
 @import "queries";
 
 #treeMobileSection {
-  display: flex;
   direction: row;
+  display: flex;
   justify-content: center;
   width: 100%;
   @include medium {
@@ -15,13 +15,13 @@
 }
 
 .parentsMobile {
-  display: flex;
   direction: column;
+  display: flex;
   justify-content: center;
 }
 
 .childrenMobile {
-  display: flex;
   direction: column;
+  display: flex;
   justify-content: center;
 }

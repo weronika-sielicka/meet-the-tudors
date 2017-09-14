@@ -1,25 +1,24 @@
 @import "queries";
+$primary-color: rgb(219,44,77);
+$secondary-color: rgb(255,255,255);
 
 #aboutSection {
-  width: 100%;
-  padding-top: 10vh;
   display: flex;
   flex-direction: column;
-  padding-right: 5vw;
-  padding-left: 5vw;
-  padding-bottom: 20px;
+  padding: 10vh 5vw 20px;
+  width: 100%;
   @include small {
     padding-left: 9vw;
     padding-right: 9vw;
   }
 
   #aboutHeading {
-    color: #db2c4d;
+    align-self: center;
+    color: $primary-color;
     font-size: 2rem;
     font-weight: bold;
-    align-self: center;
-    margin-top: 20px;
     margin-bottom: 35px;
+    margin-top: 20px;
     text-align: center;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
     @include small {
@@ -28,16 +27,16 @@
   }
 
   .aboutP {
+    color: rgba(219,44,77,0.8);
     font-size: 1.5rem;
     line-height: 1.9rem;
-    color: rgba(219,44,77,0.8);
     @include small {
       font-size: 1.7rem;
     }
 
     a {
-      text-decoration: none;
       color: rgba(219,44,77,0.8);
+      text-decoration: none;
 
       span {
         font-size: 2.2rem;
@@ -47,20 +46,20 @@
 }
 
 #disclaimerSection {
-  background-color: #db2c4d;
-  width: 100%;
+  background-color: $primary-color;
   display: flex;
   flex-direction: column;
   padding: 20px 5vw;
+  width: 100%;
   @include small {
     padding: 20px 9vw;
   }
 
   #disclaimerHeading {
-    color: white;
+    align-self: center;
+    color: $secondary-color;
     font-size: 2rem;
     font-weight: bold;
-    align-self: center;
     margin-bottom: 30px;
     text-shadow: 0 4px 3px rgba(0,0,0,0.4), 0 8px 13px rgba(0,0,0,0.1), 0 18px 23px rgba(0,0,0,0.1);
     @include small {
@@ -69,16 +68,16 @@
   }
 
   .disclaimerP {
+    color: $secondary-color;
     font-size: 1.5rem;
     line-height: 1.9rem;
-    color: white;
     @include small {
       font-size: 1.7rem;
     }
 
     a {
+      color: $secondary-color;
       text-decoration: none;
-      color: white;
 
       span {
         font-size: 2.2rem;
