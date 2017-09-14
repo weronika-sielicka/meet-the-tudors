@@ -1,6 +1,5 @@
 @import "queries";
 
-
 #treeMobileSection {
   display: flex;
   direction: row;
@@ -9,25 +8,19 @@
   @include medium {
     display: none;
   }
-  @include large {
-    display: none;
-  }
-  @include extra-large {
-    display: none;
-  }
 }
 
 .childrenPortraitsMobile {
   margin-top: 170px;
 }
 
-.parentsMobile{
+.parentsMobile {
   display: flex;
   direction: column;
   justify-content: center;
 }
 
-.childrenMobile{
+.childrenMobile {
   display: flex;
   direction: column;
   justify-content: center;

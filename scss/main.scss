@@ -4,7 +4,6 @@
 @import "tree";
 @import "tree_mobile";
 
-
 * {
   margin: 0;
   padding: 0;
@@ -39,23 +38,23 @@
   padding-right: 2vw;
 
   #menuHome {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
     color: white;
     text-shadow: 0 4px 3px rgba(0,0,0,0.4), 0 8px 13px rgba(0,0,0,0.1), 0 18px 23px rgba(0,0,0,0.1);
-    @include extra-small {
-      font-size: 2rem;
-      text-align: center;
+    @include small {
+      font-size: 3rem;
     }
   }
 
   #menuAbout {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: white;
     text-decoration: none;
-    @include extra-small {
-      font-size: 1.5rem;
+    @include small {
+      font-size: 1.7rem;
     }
   }
 
@@ -64,12 +63,12 @@
   }
 
   #menuFilms {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: white;
     text-decoration: none;
     margin-right: 2vw;
-    @include extra-small {
-      font-size: 1.5rem;
+    @include small {
+      font-size: 1.7rem;
     }
   }
 
@@ -107,56 +106,48 @@
   }
 }
 
-    .henry {
-      @include tree-portrait("../images/henry_VIII.jpg");
-    }
+.henry {
+  @include tree-portrait("../images/henry_VIII.jpg");
+}
 
-    .aragon {
-      @include tree-portrait("../images/catherine_of_aragon.jpg");
-    }
+.aragon {
+  @include tree-portrait("../images/catherine_of_aragon.jpg");
+}
 
-    .boleyn {
-      @include tree-portrait("../images/anne_boleyn.jpg");
-    }
+.boleyn {
+  @include tree-portrait("../images/anne_boleyn.jpg");
+}
 
-    .seymour {
-      @include tree-portrait("../images/jane_seymour.jpg");
-    }
+.seymour {
+  @include tree-portrait("../images/jane_seymour.jpg");
+}
 
-    .cleves {
-      @include tree-portrait("../images/anne_of_cleves.jpg");
-    }
+.cleves {
+  @include tree-portrait("../images/anne_of_cleves.jpg");
+}
 
-    .howard {
-      @include tree-portrait("../images/catherine_howard.jpg");
-    }
+.howard {
+  @include tree-portrait("../images/catherine_howard.jpg");
+}
 
-    .parr {
-      @include tree-portrait("../images/catherine_parr.jpg");
-    }
+.parr {
+  @include tree-portrait("../images/catherine_parr.jpg");
+}
 
+.mary {
+  @include tree-portrait("../images/mary.jpg");
+  margin-top: 5px;
+}
 
+.elizabeth {
+  @include tree-portrait("../images/elizabeth.jpg");
+  margin-top: 5px;
+}
 
-
-    .mary {
-      @include tree-portrait("../images/mary.jpg");
-      margin-top: 5px;
-      }
-
-    .elizabeth {
-      @include tree-portrait("../images/elizabeth.jpg");
-      margin-top: 5px;
-
-    }
-
-    .edward {
-      @include tree-portrait("../images/edward.jpg");
-      margin-top: 5px;
-
-    }
-
-
-//Bio
+.edward {
+  @include tree-portrait("../images/edward.jpg");
+  margin-top: 5px;
+}
 
 .bio {
   width: 80%;
@@ -178,16 +169,12 @@
   }
 
   .bioText {
-    font-size: 1.6rem;
-    text-align: justify;
     margin-bottom: 20px;
-    @include extra-small {
-      font-size: 1.2rem;
-      text-align: center;
-    }
-    @include small {
-      font-size: 1.2rem;
-      text-align: center;
+    font-size: 1.2rem;
+    text-align: center;
+    @include medium {
+      font-size: 1.6rem;
+      text-align: justify;
     }
   }
 }

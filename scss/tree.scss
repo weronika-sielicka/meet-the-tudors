@@ -8,12 +8,11 @@
   background-color: #FDFDFD;
   padding-bottom: 20vh;
   padding-top: 10vh;
-  @include extra-small {
-    display: none;
+  display: none;
+  @include medium {
+    display: flex;
   }
-  @include small {
-    display: none;
-  }
+
 
   .clickHeading{
     margin: 0 auto;

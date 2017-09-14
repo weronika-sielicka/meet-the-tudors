@@ -1,25 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Merriweather', serif;
-  font-size: 10px;
-}
 
 #vidsSection {
   width: 100%;
   padding-top: 12vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 1vh;
-  @include extra-small {
-    flex-direction: column;
-  }
-  @include small {
-    flex-direction: column;
-  }
   @include medium {
     flex-direction: row;
   }
@@ -37,10 +24,7 @@
   padding-right: 1vw;
   padding-left: 1vw;
   padding-top: 1vh;
-
 }
-
-
 
 .description {
   font-size: 1rem;
@@ -48,9 +32,9 @@
   padding-left: 1vw;
   padding-top: 0.5vh;
   color: #909090;
-    @include small {
-  margin-bottom: 30px;
-   }
+  @include small {
+    margin-bottom: 30px;
+  }
 }
 
 .list-group-item:hover {
